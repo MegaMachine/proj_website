@@ -18,30 +18,64 @@ body{
 
 #navigation-left{
     position:fixed;
-    width: 150px;
+    width: 75px;
     height: 100%;
     background-color: #cdcdc1;
+  
+    
 }
 
 #menu-left{
     position:relative;
-    width: 150px;
+    width: 75px;
     height: 300px;
     top: 150px;
+   
+    
 }
 #navigation-left a {
     text-decoration: none;
     display:block;
     height: 75px;
-    width:150px;
-    text-align: center;
+    width:200px;
+    text-indent: 30px;
     border-bottom:1px solid #eeeee0;
     color:#696969;
     text-transform: uppercase;
     line-height: 70px;
     cursor:pointer;
     font-size: 1.1em;
+    background-color: #cdcdc1;
 }
+
+.menu-container{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    
+    transition: width 0.2s ease-in-out ;
+}
+
+.menu-container:hover{
+    
+    width: 200px;
+}
+.menu-icon{
+    top:7.5px;
+    left:7.5px;
+    height: 60px;
+    width: 60px;
+    position:relative;
+    float: left;
+    fill: #696969;
+}
+
+.menu-icon:hover{
+    fill:#f3f46c;
+    transition: 0.4s;
+}
+
 #link-home{
     border-top:1px solid #eeeee0;
 }
