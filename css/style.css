@@ -73,7 +73,7 @@ body{
 
 .menu-icon:hover{
     fill:#f3f46c;
-    transition: 0.2s;
+    transition: all 0.2s ease-in-out;
 }
 
 #social-network-container{
@@ -93,13 +93,14 @@ body{
     border-radius: 50%;
 }
 
+.social-links:hover{
+    background-color: #f3f46c;
+    box-shadow: 0 0 20px 5px rgb(243,244,108);
+    transition: all 0.2s ease-in-out;
+}
 .social-network-icon{
     width: 50px;
     height: 50px;
     fill:#696969;
 }
 
-.social-links:hover{
-    background-color: #f3f46c;
-    box-shadow: 0 0 20px 5px rgb(243,244,108);
-}
