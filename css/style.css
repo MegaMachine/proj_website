@@ -21,19 +21,28 @@ body{
     width: 75px;
     height: 100%;
     background-color: #cdcdc1;
-  
-    
 }
 
 #menu-left{
     position:relative;
     width: 75px;
     height: 300px;
-    top: 150px;
-   
-    
+    top: 100px;
 }
-#navigation-left a {
+
+.menu-container{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    transition: width 0.2s ease-in-out ;
+}
+
+.menu-container:hover{
+    width: 200px;
+}
+
+.menu-links{
     text-decoration: none;
     display:block;
     height: 75px;
@@ -48,19 +57,10 @@ body{
     background-color: #cdcdc1;
 }
 
-.menu-container{
-    position: relative;
-    width: 75px;
-    height: 75px;
-    overflow: hidden;
-    
-    transition: width 0.2s ease-in-out ;
+#link-home{
+    border-top:1px solid #eeeee0;
 }
 
-.menu-container:hover{
-    
-    width: 200px;
-}
 .menu-icon{
     top:7.5px;
     left:7.5px;
@@ -73,9 +73,33 @@ body{
 
 .menu-icon:hover{
     fill:#f3f46c;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
-#link-home{
-    border-top:1px solid #eeeee0;
+#social-network-container{
+    position: relative;
+    top:150px;
+    width: 75px;
+    height: 225px;
+}
+
+.social-links{
+    margin-left:10px;
+    margin-top: 10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.social-network-icon{
+    width: 50px;
+    height: 50px;
+    fill:#696969;
+}
+
+.social-links:hover{
+    background-color: #f3f46c;
+    box-shadow: 0 0 20px 5px rgb(243,244,108);
 }
