@@ -112,7 +112,7 @@ body{
      top:0;
      width: 100%;
      height: 100%;
-     background-image:url(../img/bg2.jpg);
+     background-image:url(../img/bg3.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      z-index: 0;
@@ -123,6 +123,7 @@ body{
      top:0;
      width: 100%;
      height: 100%;
-     background-color: rgba(243,244,108,.3);
+     background-color: rgba(243,244,108,.2);
      z-index:1;
  }
+ 
