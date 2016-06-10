@@ -1,240 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 0.5s;
+.container{
+	width: 940px;
+	margin: 0 auto;
 }
 
-html,body{
-    width: 100%;
-    height: 100%;
+#wrapper{
+	height:100%;
 }
 
-body{
-    background: url(../img/bg/bg.png);
-    background-color: #696969;
-    font: 1em  Roboto,Tahoma, Arial, sans-serif;
-    color:#eaeaea;
-    
+/***********************Header**************************/
+header{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	height: 90px;
+	width: 100%;
+	padding: 20px 0;
+	background-color: rgba(0,0,0,0.6);
 }
-h1,h2{
-    font-family: Montserrat;
-    color:#f3f46c;
+.logo{
+	font-family: 'Great Vibes', cursive;
+	font-size: 3.5em;
+	float: left;
+}
+.logo a{
+	font-style: both;
+	color: white;
+}
+nav{
+	float: right;
+	margin-top: 13px;
+}
+nav a{
+	margin-top: 30px;
+	margin-right: 40px;
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-transform: uppercase;
+}
+nav a:last-child{
+	margin-right: 0;
+}
+/*****************************************************/
+
+/***********************Home**************************/
+#home{
+	padding-top: 270px;
+	width: 100%;
+	height: 100%;
+	background: #222 url(../img/home/home-bg.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+#jumbotron{
+	padding-top: 100px;
+	margin:0 auto;
+	width: 700px;
+	height: 300px;
+	background-color: rgba(0,0,0,0.7);
+}
+#jumbotron h1,h2{
+	color:white;
+	text-align: center;
+}
+#jumbotron h1{
+	font-family: 'Great Vibes', cursive;
+	font-size:4.5em;
+}
+#jumbotron h2{
+	font-family: 'Fondamento', cursive;
+	font-size:2.3em;
+	
 }
 
-/*-------------Navigation---------------*/
-
-#navigation-left{
-    opacity: 0.7;
-    float: left;
-    position:fixed;
-    width: 75px;
-    height: 100%;
-    background-color:#444444;
-    z-index: 1;
-}
-
-#menu-left{
-    position:relative;
-    width: 75px;
-    height: 300px;
-    top: 100px;
-}
-
-.menu-container{
-    position: relative;
-    width: 75px;
-    height: 75px;
-    overflow: hidden;
-    transition: width 0.2s ease-in-out ;
-}
-
-.menu-container:hover{
-    width: 200px;
-}
-
-.menu-links{
-    text-decoration: none;
-    display:block;
-    height: 75px;
-    width:200px;
-    text-indent: 30px;
-    color:#f3f46c;
-    text-transform: uppercase;
-    line-height: 70px;
-    cursor:pointer;
-    font-size: 1.1em;
-    background-color: #444444;
-    border-bottom:2px solid #f3f46c;
-}
-
-
-.menu-icon{
-    top:7.5px;
-    left:7.5px;
-    height: 60px;
-    width: 60px;
-    position:relative;
-    float: left;
-    fill: #cdcdc1;
-}
-
-.menu-icon:hover{
-    fill:#f3f46c;
-    transition: all 0.2s ease-in-out;
-}
-
-#social-network-container{
-    position: relative;
-    top:150px;
-    width: 75px;
-    height: 225px;
-}
-
-.social-links{
-    margin-left:10px;
-    margin-top: 15px;
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 50%;
-}
-
-.social-links:hover{
-    background-color: #f3f46c;
-    box-shadow: 0 0 20px 5px rgb(243,244,108);
-    transition: all 0.2s ease-in-out;
-}
-.social-network-icon{
-    width: 50px;
-    height: 50px;
-    fill:#696969;
-}
-
-/*---------------Header----------------*/
-/*#home{
-     position: fixed;
-     top:0;
-     width: 100%;
-     height: 100%;
-     background-image:url(../img/bg/bg3.jpg);
-     background-size: cover;
-     background-repeat: no-repeat;
-     z-index: 0;
-     opacity: 0.5;
- }
- 
- 
- #home-jambotron{
-     padding-top: 50px;
-     position:relative;
-     top:250px;
-     width: 700px;
-     margin: 0 auto;
-     height: 300px;
-     background-color: rgba(105,105,105,0.5);
- }
- 
- #home-jambotron h1{
-     
-     text-align: center;
-     color:white;
- }*/
- 
- /********************Main Container**************************/
- 
- #main-container{
-     border: 1px solid #cdcdc1;
-   
-     margin: 0 auto;
-     padding: 0px 80px;
-     width: 80%;
-     height: auto;
-     background-color: rgba( 68,68,68,0.6);
- }
- 
-#main-container h2{
-    margin-top: 50px;
-     text-align: center;
-     font-size: 2.5em;
- }
- 
-  /********************About me**************************/
-  
- #about-me-container h2{
-     margin-bottom:50px;
-     
- }
- #about-me-photo{
-     margin:0 auto;
-     width: 356px;
-     height: 473px;
-     
-     z-index: 1;
- }
- #main-container p{
-     margin-right: 0;
-     margin-top: 70px;
-     font-size: 1.3em;
-     margin-bottom: 60px;
-     clear: both;
- }
- 
- /*************************Specialty**************************/
- 
- 
- #specialty-container{
-     
- }
- 
- #secialty-svg{
-     width:60%;
-     height: 300px;
-     margin: 0 auto;
-     display: block;
-     
- }
- 
- /*************************Contact**************************/
- 
- form{
-     background-image: url(../img/bg/bg.png);
-     margin:30px auto;
-     width: 60%;
-     height: 40%;
-     background-color:rgba(105,105,105,.3); 
-     border-radius:3%;
-     padding: 30px;
-     border:1px solid #696969;
- }
- input{
-     margin:20px auto;
-     display: block;
-     border:2px solid #696969;
-     width: 500px;
-     height: 50px;
-     font-size: 1.3em;
-     padding-left: 10px;
- }
- 
-button{
-   margin:30px auto; 
-   margin-top: 70px;
-   display: block;
-   border:1px solid #696969;
-   height: 50px;
-   width: 300px;
-   padding-left: 10px;
-   background-color: #696969;
-   border-radius: 3%;
-   color:#cdcdc1;
-   font-size: 1.5em;
-   cursor: pointer;
-}
-
-button:hover{
-    background-color:#f3f46c;
-    transition: all 0.2s ease-in-out;
-    color:#696969;
-}
+/*****************************************************/

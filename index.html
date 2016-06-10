@@ -1,291 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto' rel='stylesheet' type='text/css'>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <
-    <!--<link href="css/style-l.css" rel="stylesheet" media="screen and (max-width:1322px)">
-    <link href="css/style-m.css" rel="stylesheet" media="screen and (max-width:1200px)">-->
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--*******************Font******************-->
+	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+	<!--******************/Font******************-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/style-large.css" media="only screen and (max-width:1023px)" rel="stylesheet" type="text/css">
+	<link href="css/style-medium.css" media="only screen and (max-width:767px)" rel="stylesheet" type="text/css">
+	<link href="css/style-medium-p.css" media="only screen and (max-width:540px)" rel="stylesheet" type="text/css">
+	<link href="css/style-small.css" media="only screen and (max-width:480px)" rel="stylesheet" type="text/css">
 </head>
 <body>
-    
-    
-    <!----------------------------------------------Navigation---------------------------------------------------->
-    <nav id="navigation-left">
-        <div id="menu-left">
-            <div class="menu-container ">
-            <a href="#home-filter" id="link-home" class="menu-links">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="tiny" x="0px" y="0px" width="480px" height="480px" viewBox="0 0 480 480" xml:space="preserve" class="menu-icon">
-                    <g id="home">
-      	            <path d="M400.336,268.281c-2.736,2.921-7.379,3.081-10.299,0.346L240.668,129.156c-2.92-2.735-7.727-2.735-10.656,0L84.389,264.907   c-2.938,2.749-7.562,2.576-10.299-0.357l-14.92-16.003c-2.734-2.921-2.57-7.563,0.359-10.294l170.5-158.955   c2.938-2.735,7.736-2.735,10.67,0.018l174.211,162.669c2.924,2.735,3.094,7.378,0.344,10.312L400.336,268.281z"/>
-      	            <path d="M235.333,154.331L112.577,268.765v118.645c0,4.029,3.312,7.344,7.352,7.344h80.68V291.891c0-4.03,3.311-7.344,7.354-7.344   h58.771c4.047,0,7.344,3.313,7.344,7.344v102.862h80.943c4.047,0,7.344-3.314,7.344-7.344V272.954L235.333,154.331z"/>
-                  	<path d="M361.881,94.593c0-4.043-3.314-7.356-7.361-7.356h-44.076c-4.031,0-7.344,3.313-7.344,7.356v12.831l58.781,55.342V94.593z"/>
-                    </g>
-                </svg>
-                home
-            </a>
-            </div>
-            <div class="menu-container">
-            <a href="#about-me-container" id="link-about-me" class="menu-links">
-                <svg version="1.1" id="Layer_1" class="menu-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	                 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-                    <g>
-                	<path d="M256,256c70.75,0,128-57.313,128-128S326.75,0,256,0c-70.688,0-128,57.313-128,128S185.313,256,256,256z M224,64
-	               	c18.406,18.453,32,64,128,64c0,52.938-43.063,96-96,96s-96-43.063-96-96C160,128,197.25,105.469,224,64z"/>
-                	<polygon points="256,288 224,320 256,448 288,320 	"/>
-                    <path d="M384,288h-82.75l22.188,22.188L273,512h111h32c17.688,0,32-14.313,32-32V352C448,316.656,419.375,288,384,288z"/>
-	                <path d="M210.75,288H128c-35.313,0-64,28.656-64,64v128c0,17.688,14.313,32,32,32h32h111.031l-50.469-201.813L210.75,288z"/>
-                    </g>
-                    </svg>
-                about me
-            </a>
-            </div>
-            <div class="menu-container">
-            <a href="#specialty-container" id="link-specialty" class="menu-links">
-                <svg version="1.1" id="Layer_1" class="menu-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	                width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-                    <path d="M480,112h-64V80c0-17.656-14.313-32-32-32H32C14.313,48,0,62.344,0,80v256c0,17.688,14.313,32,32,32h144l-32,64h128l-32-64
-                    h112v64c0,17.688,14.313,32,32,32h96c17.688,0,32-14.313,32-32V144C512,126.344,497.688,112,480,112z M32,304V80h352v32
-                    c-17.688,0-32,14.344-32,32v160H32z M432,432c-8.844,0-16-7.156-16-16s7.156-16,16-16s16,7.156,16,16S440.844,432,432,432z M432,368
-                    c-8.844,0-16-7.156-16-16s7.156-16,16-16s16,7.156,16,16S440.844,368,432,368z M480,240h-64h-32v-32h96V240z M480,176h-96v-32h96
-                    V176z"/>
-                </svg>
-                specialty
-            </a>
-            </div>
-            <div class="menu-container">
-            <a href="#contact-container" id="link-contact" class="menu-links">
-                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="menu-icon"
-                     width="600.000000pt" height="600.000000pt" viewBox="0 0 600.000000 600.000000"
-                     preserveAspectRatio="xMidYMid meet">
-                    <g transform="translate(0.000000,600.000000) scale(0.100000,-0.100000)"
-                     stroke="none">
-                    <path d="M505 5134 c-190 -41 -364 -181 -446 -360 -62 -136 -60 -62 -57 -1804
-                    l3 -1585 27 -81 c80 -236 277 -399 524 -434 57 -8 746 -10 2504 -8 l2425 3 73
-                    27 c200 73 344 217 409 411 l28 82 3 1619 c3 1783 7 1652 -59 1789 -35 73
-                    -126 183 -189 229 -25 17 -75 47 -112 64 -139 68 39 64 -2640 63 -2103 -1
-                    -2432 -3 -2493 -15z m3715 -1489 l-1165 -1165 -45 0 -45 0 -1165 1165 -1165
-                    1165 2375 0 2375 0 -1165 -1165z m1458 -895 l-3 -1335 -23 -57 c-25 -62 -85
-                    -125 -141 -148 l-35 -14 -808 814 -809 814 908 908 908 908 3 -277 c1 -153 1
-                    -879 0 -1613z m-4200 -580 c-369 -371 -738 -742 -819 -823 l-147 -149 -28 15
-                    c-36 19 -76 62 -100 107 -18 34 -19 97 -22 1675 l-2 1640 895 -895 894 -894
-                    -671 -676z m1191 155 c154 -157 293 -290 308 -296 59 -22 75 -9 371 284 l282
-                    282 708 -708 707 -707 -2050 0 -2050 0 715 715 c393 393 718 715 721 715 4 0
-                    133 -128 288 -285z"/>
-                    </g>
-                </svg>
-                contact
-            </a>
-            </div>
-        </div>
-        <div id="social-network-container">
-            <a href="https://www.facebook.com/anatoliy.danylyuk" class="social-links" target="_blank">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	                width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" class="social-network-icon">
-                    <path id="facebook-circle-icon" d="M256.417,50c-113.771,0-206,92.229-206,206s92.229,206,206,206s206-92.229,206-206
-                	S370.188,50,256.417,50z M317.385,171.192c0,0-20.604,0-28.789,0c-10.162,0-12.28,4.163-12.28,14.678c0,8.75,0,25.404,0,25.404
-                	h41.069l-3.951,44.596h-37.118v133.227h-53.2V256.435h-27.666v-45.16h27.666c0,0,0-6.493,0-35.565
-                	c0-33.379,17.849-50.807,57.437-50.807c6.484,0,36.833,0,36.833,0V171.192z"/>
-                </svg>
-            </a>
-            <a href="#https://new.vk.com/id147167387" class="social-links"  target="_blank">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" class="social-network-icon">
-                    <path id="vk-4-icon" d="M256,50C142.229,50,50,142.229,50,256s92.229,206,206,206c113.77,0,206-92.229,206-206S369.77,50,256,50z
-                	 M373.606,337.158c-7.215,0-27.177,0-34.61,0c-19.537,0-22.866-11.143-38.966-27.24c-14.543-14.547-22.603-3.391-22.267,17.344
-                	c0.087,5.5-2.615,9.896-9.197,9.896c-20.5,0-49.963,2.889-79.771-29.287c-32.206-34.764-59.445-95.698-61.815-102.002
-                	c-2.367-6.303,0.959-9.411,7.747-9.411c7.571,0,30.101,0,35.204,0c9.309,0,10.104,4.778,12.704,10.713
-                	c10.812,24.661,36.743,74.192,43.643,46.555c3.963-15.873,5.591-49.683-11.395-52.85c-12.046-2.244,17.439-17.777,51.465-9.88
-                	c12.462,2.893,12.504,8.494,12.339,16.647c-0.623,30.873-4.344,48.685,3.783,53.939c7.771,5.02,28.227-27.861,38.98-53.236
-                	c2.967-7.008,3.57-11.888,11.924-11.888c41.795,0,38.645,0,43.059,0c22.544,0-2.934,32.583-22.433,57.87
-                	c-15.705,20.376-14.85,20.776,3.388,37.704C376.571,309.834,400.834,337.158,373.606,337.158z"/>
-                </svg>
-            </a>
-            <a href="https://github.com/MegaMachine" class="social-links"  target="_blank">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	                width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" class="social-network-icon">
-                    <path id="github-2-circle-outline-icon" d="M256,90c44.34,0,86.026,17.267,117.38,48.62C404.733,169.974,422,211.66,422,256
-                	c0,44.34-17.267,86.026-48.62,117.38C342.026,404.732,300.34,422,256,422s-86.026-17.268-117.38-48.62
-                	C107.267,342.026,90,300.34,90,256c0-44.34,17.267-86.026,48.62-117.38C169.974,107.267,211.66,90,256,90 M256,50
-                	C142.229,50,50,142.229,50,256s92.229,206,206,206s206-92.229,206-206S369.771,50,256,50L256,50z M391.25,266.53l0.238-2.476
-                	c-14.836-1.439-29.593-1.567-43.927-0.473c2.304-7.354,3.518-15.659,3.43-25.104c-0.188-20.065-6.879-35.692-17.394-48.662
-                	c2.02-12.216,0.498-24.431-3.312-36.651c-15.024,1.23-28.547,6.151-40.587,14.7c-22.502-4.564-45.001-4.855-67.503,0
-                	c-14.044-9.479-27.835-14.127-41.413-14.7c-4.025,13.456-4.646,26.719-1.242,39.76c-11.846,12.57-16.373,27.828-16.151,44.724
-                	c0.127,9.672,1.617,18.279,4.367,25.888c-14.125-1.036-28.643-0.896-43.244,0.518l0.239,2.476
-                	c14.869-1.443,29.652-1.563,44.012-0.439c0.527,1.278,1.058,2.552,1.663,3.769c-15.559-0.41-29.561,0.941-42.674,4.166l0.592,2.412
-                	c13.31-3.271,27.566-4.588,43.485-4.053c10.527,18.703,30.794,29.693,60.306,33.182c-6.856,5.568-10.543,12.137-11.492,19.57
-                	c0,0-3.103,0-15.63,0c-20.992,0-26.715-26.766-48.457-24.125c21.093,10.461,16.88,43.896,50.633,43.896c11.343,0,13.755,0,14.181,0
-                	v30.648c0.15,4.952-2.006,8.265-5.488,10.56c12.088,1.221,21.172-4.814,21.172-12.217c0-7.403,0-36.902,0-40.512
-                	s3.779-3.889,3.779-3.889v47.3c0.16,4.707-2.128,7.383-4.556,9.939c10.649,0.425,20.666-1.702,21.12-10.766c0,0,0-42.993,0-45.269
-                	s3.729-2.332,3.729,0s0,43.145,0,43.145c0.11,7.646,6.714,13.845,20.705,12.89c-3.743-3.013-4.892-6.059-4.892-10.466
-                	c0-4.406,0-46.773,0-46.773s3.856-0.196,3.856,3.889c0,4.086,0,32.614,0,39.451c0,8.779,10.54,12.402,22.569,12.062
-                	c-3.94-2.952-6.608-6.474-6.625-11.182v-47.443c-0.407-6.974-3.242-13.548-8.802-19.673c26.978-4.142,46.422-14.91,56.104-34.211
-                	c15.971-0.549,30.271,0.766,43.615,4.047l0.592-2.412c-13.215-3.248-27.333-4.599-43.037-4.157c0.543-1.226,1.082-2.456,1.547-3.749
-                	C361.268,264.955,376.216,265.069,391.25,266.53z M165.984,305.007c-0.663,0-1.201-0.382-1.201-0.851
-                	c0-0.471,0.538-0.853,1.201-0.853c0.664,0,1.201,0.382,1.201,0.853C167.186,304.625,166.648,305.007,165.984,305.007z
-                	 M169.765,307.586c-0.737,0-1.336-0.424-1.336-0.946s0.599-0.947,1.336-0.947c0.735,0,1.334,0.425,1.334,0.947
-                	S170.5,307.586,169.765,307.586z M173.599,310.936c-0.865,0-1.565-0.496-1.565-1.109s0.7-1.11,1.565-1.11
-                	c0.864,0,1.565,0.497,1.565,1.11S174.463,310.936,173.599,310.936z M177.325,314.958c-1.011,0-1.831-0.582-1.831-1.3
-                	c0-0.715,0.82-1.297,1.831-1.297c1.01,0,1.829,0.582,1.829,1.297C179.154,314.376,178.335,314.958,177.325,314.958z
-                	 M181.429,319.504c-1.123,0-2.034-0.646-2.034-1.443c0-0.797,0.911-1.443,2.034-1.443s2.034,0.646,2.034,1.443
-                	C183.463,318.858,182.552,319.504,181.429,319.504z M186.181,324.117c-1.248,0-2.261-0.716-2.261-1.602
-                	c0-0.885,1.013-1.604,2.261-1.604c1.247,0,2.26,0.719,2.26,1.604C188.44,323.401,187.428,324.117,186.181,324.117z M192.607,328.509
-                	c-1.388,0-2.512-0.798-2.512-1.782s1.124-1.783,2.512-1.783c1.386,0,2.51,0.799,2.51,1.783S193.993,328.509,192.607,328.509z
-                	 M200.571,330.857c-1.386,0-2.511-0.799-2.511-1.781c0-0.984,1.125-1.783,2.511-1.783c1.388,0,2.511,0.799,2.511,1.783
-                	C203.082,330.059,201.959,330.857,200.571,330.857z M208.969,331.128c-1.388,0-2.511-0.798-2.511-1.78
-                	c0-0.984,1.123-1.783,2.511-1.783c1.386,0,2.511,0.799,2.511,1.783C211.479,330.33,210.354,331.128,208.969,331.128z
-                	 M217.257,331.289c-1.386,0-2.511-0.797-2.511-1.781c0-0.983,1.125-1.783,2.511-1.783c1.388,0,2.512,0.8,2.512,1.783
-                	C219.769,330.492,218.645,331.289,217.257,331.289z"/>
-                </svg>
-            </a>
-        </div>
-    </nav>
-    
-    
-   <!---------------------------------------------Main container--------------------------------------->
-    <div id="main-container">
-        
-         <!----------------------------------------------About me---------------------------------------------------->
-        <div id="about-me-container">
-        <h2>About me</h2>
-            <div id ="about-me-photo">
-               <img src="img/photo/photo1.jpg" alt="Anatoliy"></img> 
-            </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex 
-                ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                in voluptate velit esse cillum dolore eu fugiat 
-                nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex 
-                ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                in voluptate velit esse cillum dolore eu fugiat 
-                nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex 
-                ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                in voluptate velit esse cillum dolore eu fugiat 
-                nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-        </div>
-        <hr>
-        
-        
-         <!----------------------------------------------Specialty---------------------------------------------------->
-        <div id="specialty-container">
-            <h2>Specialty</h2> 
-                <svg version="1.1" id="secialty-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            	 width="1024px" height="600px" viewBox="0 0 1024 600" enable-background="new 0 0 1024 600" xml:space="preserve">
-                    <g>
-                	<polygon fill="#E45126" points="53.07,531.97 26,228.35 323.45,228.35 296.352,531.921 174.543,565.69 	"/>
-                	<polygon fill="#F1682B" points="174.725,539.878 273.152,512.591 296.31,253.175 174.725,253.175 	"/>
-                	<polygon fill="#EBEBEB" points="174.725,365.784 125.45,365.784 122.046,327.652 174.725,327.652 174.725,290.413 174.596,290.413 
-                		81.35,290.413 82.242,300.404 91.394,403.02 174.725,403.02 	"/>
-                	<polygon fill="#EBEBEB" points="174.725,462.491 174.562,462.538 133.09,451.338 130.438,421.641 110.287,421.641 93.058,421.641 
-                		98.275,480.108 174.553,501.284 174.725,501.235 	"/>
-                	<g>
-                		<path fill="#020202" d="M53.675,145.838h18.924v18.696H89.91v-18.696h18.925v56.618H89.911v-18.958h-17.31v18.958H53.675V145.838
-                			L53.675,145.838z"/>
-                		<path fill="#020202" d="M133.719,164.614h-16.66v-18.775h52.252v18.775h-16.667v37.843H133.72L133.719,164.614L133.719,164.614z"
-                			/>
-                		<path fill="#020202" d="M177.604,145.838h19.733l12.137,19.894l12.127-19.894h19.739v56.618h-18.846v-28.063l-13.021,20.13h-0.325
-                			l-13.028-20.13v28.063h-18.517L177.604,145.838L177.604,145.838z"/>
-                		<path fill="#020202" d="M250.758,145.838h18.929v37.903h26.612v18.714h-45.542L250.758,145.838L250.758,145.838z"/>
-                	</g>
-                	<polygon fill="#FFFFFF" points="174.596,365.784 174.596,403.02 220.45,403.02 216.128,451.312 174.596,462.524 174.596,501.267 
-                		250.936,480.108 251.495,473.817 260.246,375.783 261.154,365.784 251.12,365.784 	"/>
-                	<polygon fill="#FFFFFF" points="174.596,290.413 174.596,313.541 174.596,327.56 174.596,327.652 264.423,327.652 264.423,327.652 
-                		264.543,327.652 265.29,319.282 266.986,300.404 267.877,290.413 	"/>
-                    </g>
-                    <g>
-                	<g>
-                		<polygon fill="#151515" points="933.643,161.385 908.954,161.385 934.629,189.244 934.629,202.504 881.746,202.504 
-                			881.746,186.979 907.416,186.979 881.746,159.119 881.746,145.838 933.643,145.838 933.643,161.385 		"/>
-                		<polygon fill="#151515" points="871.265,161.385 846.576,161.385 872.25,189.244 872.25,202.504 819.367,202.504 819.367,186.979 
-                			845.039,186.979 819.367,159.119 819.367,145.838 871.265,145.838 871.265,161.385 		"/>
-                		<polygon fill="#151515" points="809.496,162.016 782.856,162.016 782.856,186.329 809.496,186.329 809.496,202.504 
-                			763.923,202.504 763.923,145.838 809.496,145.838 		"/>
-                	</g>
-                	<polygon fill="#1673B6" points="727.62,531.994 700.55,228.374 998,228.374 970.903,531.945 849.093,565.715 	"/>
-                	<polygon fill="#35A9DB" points="849.276,539.904 947.703,512.615 970.86,253.2 849.276,253.2 	"/>
-                	<g>
-                		<polygon fill="#FFFFFF" points="849.275,363.2 898.551,363.2 901.953,325.068 849.275,325.068 849.275,287.829 849.404,287.829 
-                			942.65,287.829 941.758,297.82 932.605,400.436 849.275,400.436 		"/>
-                		<polygon fill="#EBEBEB" points="849.498,459.907 849.336,459.954 807.863,448.754 805.212,419.057 785.061,419.057 
-                			767.832,419.057 773.049,477.525 849.326,498.701 849.498,498.652 		"/>
-                		<polygon fill="#FFFFFF" points="895.386,398.859 890.901,448.729 849.369,459.94 849.369,498.682 925.709,477.525 
-                			926.269,471.234 932.746,398.859 		"/>
-                		<polygon fill="#EBEBEB" points="849.404,287.829 849.404,310.957 849.404,324.976 849.404,325.068 759.576,325.068 
-                			759.576,325.068 759.457,325.068 758.711,316.698 757.014,297.82 756.123,287.829 		"/>
-                		<polygon fill="#EBEBEB" points="849.275,363.204 849.275,386.333 849.275,400.35 849.275,400.441 808.447,400.441 
-                			808.447,400.441 808.328,400.441 807.582,392.073 805.885,373.195 804.994,363.204 		"/>
-                	</g>
-                    </g>
-                    <g>
-                	<polygon fill="#E4A227" points="390.345,408.754 363.275,105.132 660.725,105.132 633.627,408.705 511.818,442.475 	"/>
-                	<polygon fill="#F0BF26" points="511.75,416.287 610.178,389 633.336,129.583 511.75,129.583 	"/>
-                	<g>
-                		<polygon fill="#151515" points="564.936,38.071 540.246,38.071 565.922,65.931 565.922,79.191 513.039,79.191 513.039,63.665 
-                			538.709,63.665 513.039,35.806 513.039,22.525 564.936,22.525 564.936,38.071 		"/>
-                		<path fill="#020202" d="M503.621,22.55v56.617h-45.543V60.453h26.613V22.55h18.928H503.621z"/>
-                	</g>
-                	<polygon fill="#EBEBEB" points="511.693,338.926 511.531,338.973 470.059,327.773 467.406,298.075 447.256,298.075 
-                		430.027,298.075 435.244,356.543 511.521,377.719 511.693,377.67 	"/>
-                	<polygon fill="#EBEBEB" points="516.709,279.437 516.709,242.2 470.855,242.2 476.232,183.758 516.812,182.677 516.709,143.954 
-                		442.565,143.954 439.811,171.403 431.059,269.438 430.151,279.437 440.186,279.437 	"/>
-                	<polygon fill="#FFFFFF" points="516.457,182.729 516.62,182.683 557.291,185.132 560.742,223.579 580.893,223.579 598.123,223.579 
-                		591.609,151.633 516.629,143.937 516.457,143.985 	"/>
-                	<polyline fill="#FFFFFF" points="594.284,182.843 591.093,143.954 512.49,143.954 512.49,168.106 512.49,182.746 512.49,182.843 
-                		594.284,182.843 	"/>
-                	<polygon fill="#FFFFFF" points="511.564,242.218 511.564,279.454 557.418,279.454 553.096,327.748 511.564,338.959 
-                		511.564,377.701 587.904,356.543 588.463,350.252 597.215,252.217 598.123,242.218 588.088,242.218 	"/>
-                	<path fill="#FFFFFF" d="M589.5,181.193"/>
-                    </g>
-                </svg> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex 
-                ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                in voluptate velit esse cillum dolore eu fugiat 
-                nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et </p>
-        </div>
-        <hr>
-        
-        <!----------------------------------------------Contact---------------------------------------------------->
-        <div id="contact-container">
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua.  </p>
-            <form>
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="write your@email."/>
-                <label for="text"></label>
-                <input type="text" name="text" id="text" placeholder="write message..."/>
-                <button > Send message </button>
-            </form>
-        </div>
-    </div>
-    
+	<div id="wrapper">
+
+		<!--********************Header*********************-->
+		<header>
+			<div class="container clearfix">
+				<div class="logo">
+					<a href="#">Danylyuk A.</a>
+				</div>
+				<nav>
+					<a href="#">home</a>
+					<a href="#">about me</a>
+					<a href="#">specialty</a>
+					<a href="#">contact</a>
+				</nav>		
+			</div>
+		</header>
+		<!--*******************/Header********************-->
+
+		<!--********************Home*********************-->
+		<div id="home">
+			<div class="container">
+				<div id="jumbotron">
+					<h2>Welcome to the website</h2>
+					<br>
+					<h1>Anatoliy Danylyuk</h1>
+				</div>
+			</div>
+		</div>
+		<!--*******************/Home*********************-->
+	</div>
+
+	<!--*********************Scripts************************-->
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+	<!--*********************/Scripts***********************-->
+
 </body>
 </html>

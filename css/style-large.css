@@ -1,0 +1,30 @@
+.container{
+	width: 705px;
+}
+body{
+	font-size: 0.8em;
+}
+
+nav a {
+	margin-top: 25px;
+	margin-right: 35px;
+}
+#home{
+	padding-top:270px ;/*202.5px*/
+	background-image: url(../img/home/home-bg-l.jpg);
+}
+
+header{
+	top: 15px;
+	height: 70px;
+	padding: 15px 0;
+}
+
+#jumbotron{
+	padding-top: 75px;
+	width: 525px;
+	height: 225px;
+}
+h2{
+	color:green;
+}
