@@ -1,5 +1,5 @@
 .container{
-	width: 360px;/*396.56px*/
+	width: 340px;/*396.56px*/
 }
 body{
 	font-size: 0.6em;
@@ -33,7 +33,7 @@ header{
 
 #jumbotron{
 	padding-top: 56.25px;
-	width: 350px;
+	width: 340px;
 	height: 168.75px;
 }
 h2{
