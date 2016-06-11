@@ -1,10 +1,16 @@
 .container{
-	width: 340px;/*396.56px*/
+	width: 340px;
 }
 body{
 	font-size: 0.6em;
 }
 
+/***********************Header**************************/
+header{
+	top: 0px;
+	height: 100px;
+	padding: 15px 0;
+}
 .logo{
 	text-align: center;
 	float:none;
@@ -20,16 +26,15 @@ nav a {
 	margin-top: 20px;
 	margin-right: 30px;
 }
+/*****************************************************/
+
+/***********************Home**************************/
 #home{
 	padding-top: 230px;
-	background-image: url(../img/home/home-bg-l.jpg);
+	background-image: url(../img/home/home-bg-s.jpg);
 }
 
-header{
-	top: 0px;
-	height: 100px;
-	padding: 15px 0;
-}
+
 
 #jumbotron{
 	padding-top: 56.25px;
@@ -39,3 +44,4 @@ header{
 h2{
 	color:red;
 }
+/*****************************************************/
