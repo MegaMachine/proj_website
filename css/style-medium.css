@@ -64,8 +64,13 @@ h2{
 	font-size:1em;
 }
 .specialty-item{
-	margin: 50px auto;
-	width:67.5%;
+	margin: 60px auto;
+	width:100%;
+}
+.specialty-img{
+	margin-top: 20px;
+	width: 100%;
+	height: 250px;
 }
 #specialty-item-one{
 	float:none;
@@ -78,24 +83,27 @@ h2{
 }
 #specialty-img-one{
 	float:none;
+	margin:0 auto;
 }
 #specialty-img-two{
 	float:none;
+	margin:0 auto;
 }
 #specialty-img-three{
 	float:none;
+	margin:0 auto;
 }
 #specialty-img-one img{
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 }
 #specialty-img-two img{
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 }
 #specialty-img-three img{
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 }
 .specialty-text{
 	padding-top: 30px;
@@ -117,3 +125,13 @@ h2{
 }
 
 /*********************************************************/
+
+/**************************Contact********************************/
+#message input{
+	width: 71%;
+}
+
+#btn{
+	width: 50%;
+}
+/**********************************************************/
