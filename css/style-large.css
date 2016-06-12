@@ -5,6 +5,15 @@ body{
 	font-size: 0.8em;
 }
 
+.text{
+	font-size:1.2em;
+}
+h2.title{
+	font-size:4em;
+}
+.descr{
+	font-size:1.5em;
+}
 /***********************Header**************************/
 nav a {
 	margin-top: 25px;
@@ -35,18 +44,18 @@ h2{
 /*******************************************************/
 
 /***********************About me**************************/
-.text{
-	font-size:1.2em;
-}
-h2.title{
-	font-size:4em;
-}
-.descr{
-	font-size:1.5em;
-}
 .photo{
 	width: 200px;
 	height: 330px;
 }
-
 /*******************************************************/
+
+/************************Specialty************************/
+#specialty{
+	text-align: center;
+}
+.specialty-item{
+	margin-top: 50px;
+	width:67.5%;
+}
+/*********************************************************/

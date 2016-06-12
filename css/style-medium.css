@@ -4,6 +4,19 @@
 body{
 	font-size: 0.7em;
 }
+h2.title{
+	font-size:5em;
+}
+h4.title{
+	font-size:3em;
+	margin-bottom:20px;
+}
+.descr{
+	font-size:2em;
+}
+.text{
+	font-size:1.5em;
+}
 
 /***********************Header**************************/
 nav a {
@@ -39,24 +52,68 @@ h2{
 	float:none;
 	width: 100%
 }
-.text{
-	font-size:1.2em;
-}
-h2.title{
-	font-size:5em;
-}
-h4.title{
-	font-size:3em;
-	margin-bottom:20px;
-}
-.descr{
-	font-size:2em;
-}
 .photo{
 	width: 220px;
 	height: 350px;
 }
-.text{
-	font-size:1.5em;
-}
+
 /*******************************************************/
+
+/************************Specialty************************/
+#specialty{
+	font-size:1em;
+}
+.specialty-item{
+	margin: 50px auto;
+	width:67.5%;
+}
+#specialty-item-one{
+	float:none;
+}
+#specialty-item-two{
+	float:none;
+}
+#specialty-item-three{
+	float:none;
+}
+#specialty-img-one{
+	float:none;
+}
+#specialty-img-two{
+	float:none;
+}
+#specialty-img-three{
+	float:none;
+}
+#specialty-img-one img{
+	width: 200px;
+	height: 200px;
+}
+#specialty-img-two img{
+	width: 200px;
+	height: 200px;
+}
+#specialty-img-three img{
+	width: 200px;
+	height: 200px;
+}
+.specialty-text{
+	padding-top: 30px;
+	text-align: center;
+	height: 100%;
+}
+#specialty h2{
+	font-size: 5.7em;
+}
+
+#specialty-item-one h4{
+	font-size: 2em;  
+}
+#specialty-item-two h4{
+	font-size: 2em;  
+}
+#specialty-item-three h4{
+	font-size: 2em; 
+}
+
+/*********************************************************/
