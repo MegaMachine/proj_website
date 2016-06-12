@@ -45,7 +45,7 @@ h4.title{
 /***********************Header**************************/
 header{
 	position: fixed;
-	top: 20px;
+	top: 0;
 	left: 0;
 	right: 0;
 	height: 90px;
@@ -207,10 +207,14 @@ nav a:hover{
 
 /***************************Contact************************/
 #contact{
-	width: 100%;
-	background-color: rgba(0,0,0,0.8);
+	height: 440px;
+	
+	margin-top: 50px;
+	padding-top: 50px;
+	background-color: rgba(0,0,0,0.6);
 	text-align: center;
 }
+
 #contact h2{
 	color:white;
 }
@@ -256,3 +260,54 @@ nav a:hover{
 }
 
 /**********************************************************/
+.empty-box{
+	height: 150px;
+	width: 100%;
+}
+/************************Footer********************************/
+footer{
+	text-align: center;
+	padding-top: 20px;
+	height: 100px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	transition:all 0.5s ease-in-out;
+}
+
+footer:hover{
+	background-color: rgba(0,0,0,1);
+}
+.footer-text{
+	padding-top: 20px;
+	display:inline-block;
+	margin:0 auto;
+	color:#d6d6d6;
+}
+.social-container{
+	float:right;
+	height: 100%;
+	width: 230px;
+}
+
+.social-network{
+	float:right;
+	height: 60px;
+	width: 60px;
+	margin-right: 20px;
+}
+
+.social-network:first-child{
+	margin-right: 0;
+}
+.social-img{
+	fill:white;
+	width: 60px;
+	height: 60px;
+	cursor:pointer;
+}
+.social-img:hover{
+	fill:#E02323;
+	transition:all 0.2s ease-in-out;
+}
+
+/**************************************************************/
