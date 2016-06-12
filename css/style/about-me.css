@@ -1,0 +1,37 @@
+/*************************About me****************************/
+
+#about-me{
+	text-align: center;
+}
+
+.about-me-item{
+	padding:10px;
+	float:left;
+	width: 33.333%
+}
+
+.photo{
+	border-radius:5px; 
+	margin: 20px auto;
+	width: 220px;
+	height: 350px;
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+#photo-one{
+	background-image: url(../../img/photo/photo1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#photo-two{
+	background-image: url(../../img/photo/photo2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#photo-three{
+	background-image: url(../../img/photo/photo3.png);
+	background-position: center;
+	background-size: cover;
+}

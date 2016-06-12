@@ -1,3 +1,6 @@
+/***************************Size-Medium**********************/
+
+/***************************Main**************************/
 .container{
 	width: 528.75px;
 }
@@ -23,18 +26,15 @@ nav a {
 	margin-top: 20px;
 	margin-right: 30px;
 }
-
 header{
-	top: 15px;
 	height: 65px;
 	padding: 15px 0;
 }
-/*****************************************************/
 
 /***********************Home**************************/
 #home{
 	padding-top: 230px;
-	background-image: url(../img/home/home-bg-m.jpg);
+	background-image: url(../../img/home/home-bg-m.jpg);
 }
 #jumbotron{
 	padding-top: 56.25px;
@@ -44,7 +44,6 @@ header{
 h2{
 	color:yellow;
 }
-/*****************************************************/
 
 /***********************About me**************************/
 .about-me-item{
@@ -56,8 +55,6 @@ h2{
 	width: 220px;
 	height: 350px;
 }
-
-/*******************************************************/
 
 /************************Specialty************************/
 #specialty{
@@ -113,7 +110,6 @@ h2{
 #specialty h2{
 	font-size: 5.7em;
 }
-
 #specialty-item-one h4{
 	font-size: 2em;  
 }
@@ -124,15 +120,36 @@ h2{
 	font-size: 2em; 
 }
 
-/*********************************************************/
-
 /**************************Contact********************************/
-
 #message input{
 	width: 71%;
 }
-
 #btn{
 	width: 50%;
 }
-/**********************************************************/
+
+/*************************Footer**************************/
+footer{
+	height:90px;
+	padding-top:;
+	}
+footer .logo{
+	padding-top: 10px;
+}
+.social-container{
+	height: 100%;
+	width: 169px;
+}
+.footer-text{
+	font-size:1.1em;
+}
+.social-network{
+	height: 47px;
+	width: 47px;
+	margin-right: 12px;
+}
+
+.social-img{
+	width: 47px;
+	height: 47px;
+}

@@ -1,0 +1,30 @@
+/***************************Size-Medium-after**********************/
+
+/***************************Main**************************/
+.container{
+	width: 470.75px;
+}
+body{
+	font-size: 0.6em;
+}
+
+/***********************About me**************************/
+#about-me{
+	font-size:1.2em;
+}
+
+
+/************************Specialty************************/
+#specialty{
+	font-size:1.2em;
+}
+
+
+/**************************Footer********************************/
+.social-network{
+	margin-right: 8px;
+}
+.footer-text{
+	padding-left: 6px;
+	font-size:1.2em;
+}

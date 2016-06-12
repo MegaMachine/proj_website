@@ -1,8 +1,16 @@
+/***************************Size-small**********************/
+
+/***************************Main**************************/
 .container{
 	width: 340px;
 }
 body{
 	font-size: 0.6em;
+}
+.logo{
+	text-align: center;
+	float:none;
+	margin-bottom: 20px;
 }
 
 /***********************Header**************************/
@@ -11,12 +19,6 @@ header{
 	height: 100px;
 	padding: 15px 0;
 }
-.logo{
-	text-align: center;
-	float:none;
-	margin-bottom: 20px;
-}
-
 nav{
 	float:none;
 	text-align: center;
@@ -26,16 +28,13 @@ nav a {
 	margin-top: 20px;
 	margin-right: 30px;
 }
-/*****************************************************/
+
 
 /***********************Home**************************/
 #home{
 	padding-top: 230px;
-	background-image: url(../img/home/home-bg-s.jpg);
+	background-image: url(../../img/home/home-bg-s.jpg);
 }
-
-
-
 #jumbotron{
 	padding-top: 56.25px;
 	width: 340px;
@@ -44,15 +43,20 @@ nav a {
 h2{
 	color:red;
 }
-/*****************************************************/
 
 /**************************Contact********************************/
-
 #message input{
 	width: 81%;
 }
-
 #btn{
 	width: 60%;
 }
-/**********************************************************/
+
+
+/**************************Footer********************************/
+footer .logo{
+	display:none;
+}
+.footer-text{
+	font-size:1.2em;
+}
