@@ -1,6 +1,6 @@
 $('#btn').click(function(e) {
   $.ajax({
-      url: "http://formspree.io/tolikdanylyuk@gmail.com",  
+      url: "//formspree.io/tolikdanylyuk@gmail.com",  
       method: "POST",
       error: function () {
         $('#info').html('Error!').css({color:'#ed4444'})
@@ -15,3 +15,4 @@ $('#btn').click(function(e) {
   } );
   e.preventDefault();
 });
+
