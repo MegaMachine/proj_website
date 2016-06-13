@@ -42,6 +42,7 @@
 	font-size: 2em;
 }
 #btn{
+	outline: none;
 	font-family:'Fondamento', cursive;
 	text-transform: uppercase;
 	border:none;
@@ -58,6 +59,12 @@
 }
 
 #btn:hover{
+	outline: none;
 	background: #E02323;
 	transition:all 0.2s ease-in-out;
 }
+
+#btn:active{
+	outline: none;
+}
+

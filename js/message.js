@@ -1,6 +1,6 @@
 $('#btn').click(function(e) {
   $.ajax({
-      url: "//formspree.io/tolikdanylyuk@gmail.com",  
+      url: "http://formspree.io/tolikdanylyuk@gmail.com",  
       method: "POST",
       error: function () {
         $('#info').html('Error!').css({color:'#ed4444'})

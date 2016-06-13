@@ -1,3 +1,1 @@
-$(document).ready(function(){
-		$('#jumbotron').fadeIn(2500);
-});
+$('#jumbotron').fadeIn(2500);
