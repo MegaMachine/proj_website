@@ -3,7 +3,7 @@ $('#btn').click(function(e) {
       url: "https://formspree.io/tolikdanylyuk@gmail.com",  
       method: "POST",
       error: function () {
-        $('#info').html('Error!').css({color:'#ed4444'})
+        $('#info').html('Error!').css('color','#ed4444')
       },
       data: {
              email: email.value,
@@ -11,7 +11,7 @@ $('#btn').click(function(e) {
              },
       dataType: "json"
   }).done(function() {
-     $('#info').html('Thank you!').css({color:'#2aea57'})
+     $('#info').html('Thank you!').css('color','#2aea57'})
   } );
   e.preventDefault();
 });
