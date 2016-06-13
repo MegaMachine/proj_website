@@ -10,6 +10,7 @@
 }
 
 #jumbotron{
+	display: none;
 	padding-top: 100px;
 	margin:0 auto;
 	width: 700px;
@@ -18,7 +19,7 @@
 }
 
 #jumbotron h1,h2{
-	color:white;
+	color:#E02323;
 	text-align: center;
 }
 

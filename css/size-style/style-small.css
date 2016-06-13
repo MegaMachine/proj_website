@@ -32,16 +32,13 @@ nav a {
 
 /***********************Home**************************/
 #home{
-	padding-top: 230px;
+	padding-top: 270px;
 	background-image: url(../../img/home/home-bg-s.jpg);
 }
 #jumbotron{
-	padding-top: 56.25px;
+	padding-top: 50.25px;
 	width: 340px;
 	height: 168.75px;
-}
-h2{
-	color:red;
 }
 
 /**************************Contact********************************/
