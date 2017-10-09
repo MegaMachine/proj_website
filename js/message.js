@@ -14,7 +14,7 @@ $(function(){
             }).done(function() {
                 $('#info').html('Thank you!').css('color','#2aea57');
                 setTimeout(function(){
-                    $('#info').css('visibility','none');
+                    $('#info').css('visibility','hidden');
                 },6000);
             }).fail(function(){
                 $('#info').html('Error!').css('color','#ed4444');
