@@ -1,17 +1,20 @@
-$('#btn').click(function(e) {
-  $.ajax({
-      url: "https://formspree.io/tolikdanylyuk@gmail.com",  
-      method: "POST",
-      error: function () {
-        $('#info').html('Error!').css('color','#ed4444')
-      },
-      data: {
-             email: email.value,
-             message: textmessage.value
-             },
-      dataType: "json"
-  }).done(function() {
-     $('#info').html('Thank you!').css('color','#2aea57'})
-  } );
-  e.preventDefault();
+$(function(){
+    $('#btn').click(function(e) {
+        console.log($("#email").val());
+        console.log($("#textmessage").val());
+        e.preventDefault();
+        $.ajax({
+            url: "https://formspree.io/tolikdanylyuk@gmail.com",
+            method: "POST",
+            data: {
+                email: $("#email").val(),
+                message: $("#textmessage").val()
+            },
+            dataType: "json"
+            }).done(function() {
+                $('#info').html('Thank you!').css('color','#2aea57');
+            }).fail(function(){
+                $('#info').html('Error!').css('color','#ed4444');
+            });
+    });
 });
