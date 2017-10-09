@@ -4,7 +4,7 @@ $(function(){
         console.log($("#textmessage").val());
         e.preventDefault();
         $.ajax({
-            url: "https://formspree.io/tolikdanylyuk@gmail.com",
+            url: "https://formspree.io/tolikdan@yahoo.com",
             method: "POST",
             data: {
                 email: $("#email").val(),
